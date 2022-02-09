@@ -1,7 +1,7 @@
 package com.company;
-class B{
+class B4{
     A4 obj;
-    B(A4 obj){
+    B4(A4 obj){
         this.obj=obj;
     }
     void display(){
@@ -12,7 +12,7 @@ class B{
 class A4{
     int data=10;
     A4(){
-        B b=new B(this);
+        B4 b=new B4(this);
         b.display();
     }
 
